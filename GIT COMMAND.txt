@@ -1,0 +1,33 @@
+GIT COMMAND
+
+git init 
+touch filename
+ls
+vi filename
+touch filename
+cat filename
+git status
+git add .
+git commit -m "msg"
+git remote -v
+git remote add origin reposatoryurl
+git push origin master
+git push --global user.email (emailid)
+git push --global user.name (password)
+git branch
+git branch branchname
+git checkout branchname
+git switch branchname
+git reset --hard HEAD~linenumber
+git reset --soft HEAD~linenumber
+git revert branchname
+git diff frombanchname tobranchname
+git tag tagname
+git push origin tagname
+git tag tagname commitid
+git clone
+git merge branchname
+git log --oneline
+git log
+
+
